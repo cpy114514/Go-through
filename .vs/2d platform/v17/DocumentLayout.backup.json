@@ -1,0 +1,285 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\assets\\scripts\\achievementtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\achievementtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|d:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\assets\\scripts\\achievementmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\achievementmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\assets\\scripts\\achievementpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\achievementpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\assets\\scripts\\achievementdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\achievementdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\assets\\scripts\\talkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\talkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\assets\\scripts\\npcdialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npcdialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\assets\\scripts\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\PlayerWinTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\CameraFollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\VolumeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\PlayerGameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\DashEffectController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\PlayerTrailController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AchievementPopup.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\AchievementPopup.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AchievementPopup.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\AchievementPopup.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AchievementPopup.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwBkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T05:12:36.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AchievementData.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\AchievementData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AchievementData.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\AchievementData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AchievementData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T05:00:39.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AchievementTrigger.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\AchievementTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AchievementTrigger.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\AchievementTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AchievementTrigger.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T00:53:22.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AchievementManager.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\AchievementManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AchievementManager.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\AchievementManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AchievementManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T00:47:52.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NpcDialogue.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\NpcDialogue.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NpcDialogue.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\NpcDialogue.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NpcDialogue.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowBwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T03:29:23.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TalkManager.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\TalkManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TalkManager.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\TalkManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TalkManager.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAowIEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T23:20:41.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PauseMenu.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\PauseMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PauseMenu.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\PauseMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PauseMenu.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAcwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T23:32:45.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MusicManager.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\MusicManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MusicManager.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\MusicManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MusicManager.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAcwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T22:52:52.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "playercontroller.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\playercontroller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\playercontroller.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\playercontroller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\playercontroller.cs",
+              "ViewState": "AgIAAC8BAAAAAAAAAAA5wD4BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T03:03:46.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VolumeController.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\VolumeController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\VolumeController.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\VolumeController.cs",
+              "RelativeToolTip": "..\\..\\..\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\VolumeController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T23:08:25.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PlayerGameManager.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\PlayerGameManager.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\PlayerGameManager.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\PlayerGameManager.cs",
+              "RelativeToolTip": "..\\..\\..\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\PlayerGameManager.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAqwIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T03:26:04.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlayerWinTrigger.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\PlayerWinTrigger.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\PlayerWinTrigger.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\PlayerWinTrigger.cs",
+              "RelativeToolTip": "..\\..\\..\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\PlayerWinTrigger.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAgwFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T01:57:02.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\MainMenu.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\MainMenu.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\MainMenu.cs",
+              "RelativeToolTip": "..\\..\\..\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\MainMenu.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T23:52:17.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DashEffectController.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\DashEffectController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\DashEffectController.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\DashEffectController.cs",
+              "RelativeToolTip": "..\\..\\..\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\DashEffectController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T17:46:20.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PlayerTrailController.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\PlayerTrailController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\PlayerTrailController.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\PlayerTrailController.cs",
+              "RelativeToolTip": "..\\..\\..\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\PlayerTrailController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAIwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T17:31:05.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\CameraFollow.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\CameraFollow.cs",
+              "RelativeToolTip": "..\\..\\..\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\CameraFollow.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T03:58:40.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "playercontroller.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\playercontroller.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\playercontroller.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\playercontroller.cs",
+              "RelativeToolTip": "..\\..\\..\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\playercontroller.cs",
+              "ViewState": "AgIAANAAAAAAAAAAAAAowNoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T03:23:04.4Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

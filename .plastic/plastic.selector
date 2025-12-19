@@ -1,0 +1,4 @@
+repository "2d platform 2025-10-18_20-19-38/2d platform@3574351988897@cloud"
+  path "/"
+    br "/main"
+    co "/main"
