@@ -1,4 +1,4 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
@@ -6,62 +6,81 @@ public class MenuController : MonoBehaviour
     [Header("Panels")]
     public GameObject levelSelectPanel;
     public GameObject settingPanel;
+    public GameObject achievementPanel;
 
     [Header("Main Menu Buttons")]
     public GameObject startButton;
     public GameObject settingButton;
     public GameObject quitButton;
+    public GameObject achievementButton;
 
-    // ---------------------------
-    // ÏÔÊ¾¹Ø¿¨Ñ¡ÔñÃæ°å
-    public void ShowLevelSelect()
+    // ===========================
+    // é€šç”¨ï¼šè¿›å…¥ä»»æ„å­ç•Œé¢
+    void EnterPanel(GameObject panel)
     {
-        levelSelectPanel.SetActive(true);
-        ToggleMainButtons(false); // Òş²ØÖ÷²Ëµ¥°´Å¥
+        CloseAllPanels();
+        panel.SetActive(true);
+        ToggleMainButtons(false);
     }
 
-    // ¹Ø±Õ¹Ø¿¨Ñ¡ÔñÃæ°å
-    public void HideLevelSelect()
+    // é€šç”¨ï¼šè¿”å›ä¸»èœå•
+    void ExitPanel(GameObject panel)
     {
-        levelSelectPanel.SetActive(false);
-        ToggleMainButtons(true); // ÏÔÊ¾Ö÷²Ëµ¥°´Å¥
+        panel.SetActive(false);
+        ToggleMainButtons(true);
     }
 
-    // ---------------------------
-    // ÏÔÊ¾ÉèÖÃÃæ°å
-    public void ShowSetting()
+    // å…³é—­æ‰€æœ‰é¢æ¿ï¼ˆé˜²æ­¢å åŠ ï¼‰
+    void CloseAllPanels()
     {
-        settingPanel.SetActive(true);
-        ToggleMainButtons(false); // Òş²ØÖ÷²Ëµ¥°´Å¥
+        if (levelSelectPanel) levelSelectPanel.SetActive(false);
+        if (settingPanel) settingPanel.SetActive(false);
+        if (achievementPanel) achievementPanel.SetActive(false);
     }
 
-    // ¹Ø±ÕÉèÖÃÃæ°å
-    public void HideSetting()
-    {
-        settingPanel.SetActive(false);
-        ToggleMainButtons(true); // ÏÔÊ¾Ö÷²Ëµ¥°´Å¥
-    }
+    // ===========================
+    // å…³å¡é€‰æ‹©
+    public void ShowLevelSelect() => EnterPanel(levelSelectPanel);
+    public void HideLevelSelect() => ExitPanel(levelSelectPanel);
 
-    // ---------------------------
-    // ¼ÓÔØ¹Ø¿¨
+    // è®¾ç½®
+    public void ShowSetting() => EnterPanel(settingPanel);
+    public void HideSetting() => ExitPanel(settingPanel);
+
+    // æˆå°±
+    public void ShowAchievement() => EnterPanel(achievementPanel);
+    public void HideAchievement() => ExitPanel(achievementPanel);
+
+    // ===========================
+    // åŠ è½½å…³å¡
     public void LoadLevel(string levelName)
     {
         SceneManager.LoadScene(levelName);
     }
 
-    // ÍË³öÓÎÏ·
+    // é€€å‡ºæ¸¸æˆ
     public void QuitGame()
     {
         Application.Quit();
         Debug.Log("Quit Game");
     }
 
-    // ---------------------------
-    // ¿ØÖÆÖ÷²Ëµ¥°´Å¥ÏÔÊ¾/Òş²Ø
+    // æˆå°±è§£é”ï¼ˆæŒ‰é’® / è°ƒè¯•ç”¨ï¼‰
+    public void UnlockAchievement(string id)
+    {
+        if (AchievementManager.Instance != null)
+            AchievementManager.Instance.Unlock(id);
+        else
+            Debug.LogError("AchievementManager.Instance is NULL");
+    }
+
+    // ===========================
+    // ä¸»èœå•æŒ‰é’®ç»Ÿä¸€æ˜¾éš
     void ToggleMainButtons(bool state)
     {
-        if (startButton != null) startButton.SetActive(state);
-        if (settingButton != null) settingButton.SetActive(state);
-        if (quitButton != null) quitButton.SetActive(state);
+        if (startButton) startButton.SetActive(state);
+        if (settingButton) settingButton.SetActive(state);
+        if (quitButton) quitButton.SetActive(state);
+        if (achievementButton) achievementButton.SetActive(state);
     }
 }

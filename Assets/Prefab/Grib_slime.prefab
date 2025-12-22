@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8152646105173920451}
   - component: {fileID: 2069648915114027652}
   - component: {fileID: 6553414843225303707}
+  - component: {fileID: 8295397660732518929}
   m_Layer: 0
   m_Name: slime
   m_TagString: Block
@@ -219,7 +220,7 @@ CompositeCollider2D:
   m_GameObject: {fileID: 152449720345013484}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 9fa8f851bf9086a438d59e0eb57c0e23, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -239,7 +240,7 @@ CompositeCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -255,6 +256,20 @@ CompositeCollider2D:
   m_OffsetDistance: 0.00005
   m_UseDelaunayMesh: 0
   m_CompositeGameObject: {fileID: 152449720345013484}
+--- !u!114 &8295397660732518929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 152449720345013484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d01954e0595c2534aa5a8f0bbfe2faa2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bounceVelocity: 15
+  resetVerticalSpeed: 1
 --- !u!1 &9003427828215970229
 GameObject:
   m_ObjectHideFlags: 0

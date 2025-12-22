@@ -21,6 +21,20 @@ public class AchievementManager : MonoBehaviour
         }
     }
 
+    public void ResetAllAchievements()
+    {
+        Debug.Log("RESET ALL ACHIEVEMENTS");
+
+        foreach (var a in achievements)
+        {
+            a.unlocked = false;
+            PlayerPrefs.DeleteKey("ACH_" + a.id);
+        }
+
+        PlayerPrefs.Save();
+    }
+
+
     // =========================
     // ⭐ 解锁成就（对外接口）
     // =========================
@@ -57,6 +71,10 @@ public class AchievementManager : MonoBehaviour
         {
             Debug.LogError("AchievementPopup.Instance is NULL");
         }
+
+        var ui = FindFirstObjectByType<AchievementListUI>();
+        if (ui != null) ui.Rebuild();
+
     }
 
     // =========================
@@ -71,6 +89,15 @@ public class AchievementManager : MonoBehaviour
         }
         return null;
     }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.F12))
+        {
+            ResetAllAchievements();
+        }
+    }
+
 
     // =========================
     // 💾 存档 / 读档
