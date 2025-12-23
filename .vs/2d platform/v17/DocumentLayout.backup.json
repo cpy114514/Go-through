@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|d:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\assets\\scripts\\achievements\\acitemui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\achievements\\acitemui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|d:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\assets\\scripts\\playergamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playergamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|d:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\assets\\scripts\\resolutionautosetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\resolutionautosetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|d:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\assets\\scripts\\achievements\\acmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\achievements\\acmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\assets\\scripts\\achievements\\acitemui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\achievements\\acitemui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\assets\\scripts\\achievements\\aclistui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\achievements\\aclistui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\assets\\scripts\\achievements\\acdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\assets\\scripts\\npcdialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npcdialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A71CC7C6-E2D5-EB70-BEB2-F54A7743C81D}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,19 +111,56 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AcItemUI.cs",
-              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\Achievements\\AcItemUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Achievements\\AcItemUI.cs",
-              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\Achievements\\AcItemUI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Achievements\\AcItemUI.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA5wCcAAAAAAAAAAAAAAA==",
+              "Title": "PlayerGameManager.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\PlayerGameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerGameManager.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\PlayerGameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerGameManager.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAAAIUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T23:09:56.86Z",
+              "WhenOpened": "2025-12-23T01:06:40.45Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ResolutionAutoSetter.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\ResolutionAutoSetter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ResolutionAutoSetter.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\ResolutionAutoSetter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ResolutionAutoSetter.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAowBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T23:07:14.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AcListUI.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\Achievements\\AcListUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Achievements\\AcListUI.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\Achievements\\AcListUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Achievements\\AcListUI.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAqwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T23:10:34.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AcItemUI.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\Achievements\\AcItemUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Achievements\\AcItemUI.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\Achievements\\AcItemUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Achievements\\AcItemUI.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAuwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T23:09:56.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "AcData.cs",
               "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\Achievements\\AcData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Achievements\\AcData.cs",
@@ -119,20 +172,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AcManager.cs",
               "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\Achievements\\AcManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Achievements\\AcManager.cs",
               "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\Achievements\\AcManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Achievements\\AcManager.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAkwF0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-21T22:15:42.552Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "SlimeBounce.cs",
               "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\SlimeBounce.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SlimeBounce.cs",
@@ -144,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "AchievementUnlocker.cs",
               "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\AchievementUnlocker.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AchievementUnlocker.cs",
@@ -155,7 +208,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "playercontroller.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\playercontroller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\playercontroller.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\playercontroller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\playercontroller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T03:03:46.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAwwE4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T23:15:21.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "AchievementPopup.cs",
               "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\AchievementPopup.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AchievementPopup.cs",
@@ -166,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "AchievementData.cs",
               "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\AchievementData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AchievementData.cs",
@@ -177,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "AchievementTrigger.cs",
               "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\AchievementTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AchievementTrigger.cs",
@@ -185,12 +263,11 @@
               "RelativeToolTip": "Assets\\Scripts\\AchievementTrigger.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAowAYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T00:53:22.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T00:53:22.638Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "AchievementManager.cs",
               "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\AchievementManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AchievementManager.cs",
@@ -198,12 +275,11 @@
               "RelativeToolTip": "Assets\\Scripts\\AchievementManager.cs",
               "ViewState": "AgIAAGEAAAAAAAAAAAAowGgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T00:47:52.452Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T00:47:52.452Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "NpcDialogue.cs",
               "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\NpcDialogue.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NpcDialogue.cs",
@@ -215,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "TalkManager.cs",
               "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\TalkManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TalkManager.cs",
@@ -227,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "PauseMenu.cs",
               "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\PauseMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PauseMenu.cs",
@@ -239,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "MusicManager.cs",
               "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\MusicManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MusicManager.cs",
@@ -251,19 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "playercontroller.cs",
-              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\playercontroller.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\playercontroller.cs",
-              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\2d platform\\Assets\\Scripts\\playercontroller.cs",
-              "RelativeToolTip": "Assets\\Scripts\\playercontroller.cs",
-              "ViewState": "AgIAAC8BAAAAAAAAAAA5wD4BAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T03:03:46.602Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "VolumeController.cs",
               "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\VolumeController.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\VolumeController.cs",
@@ -271,12 +335,11 @@
               "RelativeToolTip": "..\\..\\..\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\VolumeController.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAAwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T23:08:25.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-20T23:08:25.797Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "PlayerGameManager.cs",
               "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\PlayerGameManager.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\PlayerGameManager.cs",
@@ -284,12 +347,11 @@
               "RelativeToolTip": "..\\..\\..\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\PlayerGameManager.cs",
               "ViewState": "AgIAAG0AAAAAAAAAAAAqwIUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T03:26:04.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-20T03:26:04.15Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "PlayerWinTrigger.cs",
               "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\PlayerWinTrigger.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\PlayerWinTrigger.cs",
@@ -297,24 +359,22 @@
               "RelativeToolTip": "..\\..\\..\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\PlayerWinTrigger.cs",
               "ViewState": "AgIAAFAAAAAAAAAAAAAgwFsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T01:57:02.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-20T01:57:02.18Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\MainMenu.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\MainMenu.cs",
               "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\MainMenu.cs",
               "RelativeToolTip": "..\\..\\..\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\MainMenu.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T23:52:17.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-19T23:52:17.416Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "DashEffectController.cs",
               "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\DashEffectController.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\DashEffectController.cs",
@@ -322,12 +382,11 @@
               "RelativeToolTip": "..\\..\\..\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\DashEffectController.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAAwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T17:46:20.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-19T17:46:20.529Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "PlayerTrailController.cs",
               "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\PlayerTrailController.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\PlayerTrailController.cs",
@@ -335,12 +394,11 @@
               "RelativeToolTip": "..\\..\\..\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\PlayerTrailController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAIwC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T17:31:05.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-19T17:31:05.616Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "CameraFollow.cs",
               "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\CameraFollow.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\CameraFollow.cs",
@@ -352,7 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "playercontroller.cs",
               "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\playercontroller.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1\\unity\\2d platform\\Assets\\playercontroller.cs",

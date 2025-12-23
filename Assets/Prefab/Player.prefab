@@ -9964,9 +9964,10 @@ GameObject:
   - component: {fileID: 4899193072017575084}
   - component: {fileID: 2685349831545182740}
   - component: {fileID: 210716069287149589}
-  - component: {fileID: 928843112166123576}
   - component: {fileID: 8704296204991204481}
   - component: {fileID: 2942906620140385571}
+  - component: {fileID: 8010540660888065251}
+  - component: {fileID: 4002347520463912897}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -10103,25 +10104,6 @@ MonoBehaviour:
   iceEffect: {fileID: 3843700451088284041}
   maxJumps: 2
   wallJumpDuration: 0.2
---- !u!114 &928843112166123576
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5325713590317372109}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e26b8609a34c9449b10efe0965051e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winPanel: {fileID: 0}
-  losePanel: {fileID: 0}
-  respawnPoint: {fileID: 0}
-  currentLevelName: Level1
-  nextLevelName: Level2
-  playerControl: {fileID: 210716069287149589}
-  fallY: -50
 --- !u!70 &8704296204991204481
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -10202,6 +10184,40 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &8010540660888065251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5325713590317372109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e26b8609a34c9449b10efe0965051e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winPanel: {fileID: 2522513847768070074, guid: bf6b50ada9a274c43a63d0e2150c31ae, type: 3}
+  losePanel: {fileID: 0}
+  respawnPoint: {fileID: 0}
+  currentLevelName: 
+  nextLevelName: 
+  playerControl: {fileID: 210716069287149589}
+  deathAnimTime: 0.6
+  fallY: -10
+--- !u!114 &4002347520463912897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5325713590317372109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60b25829a1a0bde498a00daed5cad1ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shardPrefab: {fileID: 3654959593560038837, guid: 39b243cceab74204ca80b3e3bf50ae72, type: 3}
+  shardCount: 1
 --- !u!1 &5645637774416439058
 GameObject:
   m_ObjectHideFlags: 0

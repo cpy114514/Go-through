@@ -1,27 +1,35 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PlayerGameManager : MonoBehaviour
 {
-    [Header("UI & ¹Ø¿¨ÉèÖÃ")]
-    public GameObject winPanel;       // Ê¤ÀûUI
-    public GameObject losePanel;      // Ê§°ÜUI
-    public Transform respawnPoint;    // Íæ¼Ò³õÊ¼Î»ÖÃ
-    public string currentLevelName;   // µ±Ç°¹Ø¿¨Ãû×Ö
-    public string nextLevelName;      // ÏÂÒ»¹ØÃû×Ö
-    public MonoBehaviour playerControl; // Íæ¼Ò¿ØÖÆ½Å±¾
+    [Header("UI & å…³å¡è®¾ç½®")]
+    public GameObject winPanel;           // èƒœåˆ©UI
+    public GameObject losePanel;          // å¤±è´¥UI
+    public Transform respawnPoint;        // ç©å®¶åˆå§‹ä½ç½®
+    public string currentLevelName;       // å½“å‰å…³å¡åå­—
+    public string nextLevelName;          // ä¸‹ä¸€å…³åå­—
+    public MonoBehaviour playerControl;   // ç©å®¶æ§åˆ¶è„šæœ¬
+
+    [Header("Death Animation")]
+    public float deathAnimTime = 0.6f;    // æ­»äº¡åŠ¨ç”»/ç¢è£‚æŒç»­æ—¶é—´
+
+    [Header("æ‰è½è™šç©ºåˆ¤å®š")]
+    public float fallY = -10f;
 
     private Rigidbody2D rb;
+    private SpriteRenderer sr;
+    private Animator animator;
     private Vector3 initialPosition;
     private bool canWin = true;
     private bool canLose = true;
 
-    [Header("µôÂäĞé¿ÕÅĞ¶¨")]
-    public float fallY = -10f; // Íæ¼ÒµÍÓÚ´ËYÖµ¼´Ê§°Ü
-
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
+
         if (respawnPoint != null)
             initialPosition = respawnPoint.position;
         else
@@ -30,8 +38,8 @@ public class PlayerGameManager : MonoBehaviour
 
     private void Update()
     {
-        // µôÂäĞé¿ÕÅĞ¶¨
-        if (transform.position.y <= fallY && canLose)
+        // æ‰è½è™šç©ºå¤±è´¥
+        if (canLose && transform.position.y <= fallY)
         {
             TriggerLose();
         }
@@ -39,7 +47,7 @@ public class PlayerGameManager : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        // Åöµ½ÕÏ°­ÎïÊ§°Ü
+        // ç¢°åˆ°éšœç¢ç‰©å¤±è´¥
         if (canLose && collision.gameObject.CompareTag("Obstacle"))
         {
             TriggerLose();
@@ -48,83 +56,126 @@ public class PlayerGameManager : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Åöµ½ÖÕµãÊ¤Àû
+        // ç¢°åˆ°ç»ˆç‚¹èƒœåˆ©
         if (canWin && collision.CompareTag("Finish"))
         {
             canWin = false;
 
+            StopPlayer();
+
             if (winPanel != null)
                 winPanel.SetActive(true);
-
-            StopPlayer();
 
             Debug.Log("You Win!");
         }
     }
 
+    // ========================
+    // å¤±è´¥æµç¨‹ï¼ˆæ ¸å¿ƒï¼‰
+    // ========================
     private void TriggerLose()
     {
+        if (!canLose) return;
         canLose = false;
 
-        if (losePanel != null)
-            losePanel.SetActive(true);
-
         StopPlayer();
+
+        // â–¶ æ’­æ”¾æ­»äº¡åŠ¨ç”»ï¼ˆå¦‚æœæœ‰ï¼‰
+        if (animator != null)
+            animator.Play("Death");
+
+        // â–¶ è§’è‰²ç¢è£‚ï¼ˆå¦‚æœæœ‰ PlayerShatterï¼‰
+        PlayerShatter shatter = GetComponent<PlayerShatter>();
+        if (shatter != null)
+            shatter.Shatter();
+
+        // â–¶ éšè—åŸè§’è‰²æ˜¾ç¤º
+        if (sr != null)
+            sr.enabled = false;
+
+        // â± å»¶è¿Ÿæ˜¾ç¤ºå¤±è´¥ UI
+        Invoke(nameof(ShowLosePanel), deathAnimTime);
 
         Debug.Log("You Lose!");
     }
 
+    private void ShowLosePanel()
+    {
+        if (losePanel != null)
+            losePanel.SetActive(true);
+    }
+
     private void StopPlayer()
     {
-        // Í£Ö¹ Rigidbody2D
+        // åœæ­¢ç‰©ç†
         if (rb != null)
         {
             rb.velocity = Vector2.zero;
             rb.simulated = false;
         }
 
-        // ½ûÓÃÍæ¼Ò¿ØÖÆ
+        // ç¦ç”¨ç©å®¶æ§åˆ¶
         if (playerControl != null)
             playerControl.enabled = false;
     }
 
-    // Retry °´Å¥
+    // ========================
+    // Retry
+    // ========================
     public void RetryLevel()
     {
-        // »Ö¸´ Rigidbody2D
+        // æ¢å¤ç‰©ç†
         if (rb != null)
         {
             rb.simulated = true;
             rb.velocity = Vector2.zero;
         }
 
-        // »Ö¸´¿ØÖÆ
+        // æ¢å¤æ§åˆ¶
         if (playerControl != null)
             playerControl.enabled = true;
 
-        // ÖØÖÃÎ»ÖÃ
+        // é‡ç½®ä½ç½®
         transform.position = initialPosition;
 
-        // Òş²Ø UI
-        if (winPanel != null)
-            winPanel.SetActive(false);
-        if (losePanel != null)
-            losePanel.SetActive(false);
+        // æ¢å¤æ˜¾ç¤º
+        if (sr != null)
+            sr.enabled = true;
 
-        // ÖØÖÃ´¥·¢×´Ì¬
+        // æ¸…é™¤ç¢ç‰‡
+        PlayerShatter shatter = GetComponent<PlayerShatter>();
+        if (shatter != null)
+        {
+            shatter.ClearShards();
+        }
+
+
+        // é‡ç½®åŠ¨ç”»çŠ¶æ€
+        if (animator != null)
+        {
+            animator.Rebind();
+            animator.Update(0f);
+        }
+
+        // éšè— UI
+        if (winPanel != null) winPanel.SetActive(false);
+        if (losePanel != null) losePanel.SetActive(false);
+
+        // é‡ç½®çŠ¶æ€
         canWin = true;
         canLose = true;
 
         Debug.Log("Player reset to start point!");
     }
 
-    // Back °´Å¥ ¡ú ·µ»ØÖ÷²Ëµ¥
+    // ========================
+    // UI æŒ‰é’®
+    // ========================
     public void BackToMenu()
     {
         SceneManager.LoadScene("MainMenu");
     }
 
-    // Next °´Å¥ ¡ú Ö»ÓĞÊ¤Àû²ÅÓÃ
     public void NextLevel()
     {
         if (!string.IsNullOrEmpty(nextLevelName))
