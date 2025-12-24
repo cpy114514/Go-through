@@ -9968,6 +9968,7 @@ GameObject:
   - component: {fileID: 2942906620140385571}
   - component: {fileID: 8010540660888065251}
   - component: {fileID: 4002347520463912897}
+  - component: {fileID: 5599752653106722841}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -10218,6 +10219,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shardPrefab: {fileID: 3654959593560038837, guid: 39b243cceab74204ca80b3e3bf50ae72, type: 3}
   shardCount: 1
+--- !u!114 &5599752653106722841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5325713590317372109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd494cefa40f3064eace7db1c6d77a3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5645637774416439058
 GameObject:
   m_ObjectHideFlags: 0

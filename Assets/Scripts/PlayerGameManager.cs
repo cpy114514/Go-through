@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
 public class PlayerGameManager : MonoBehaviour
@@ -80,24 +81,24 @@ public class PlayerGameManager : MonoBehaviour
 
         StopPlayer();
 
-        // ▶ 播放死亡动画（如果有）
-        if (animator != null)
-            animator.Play("Death");
-
-        // ▶ 角色碎裂（如果有 PlayerShatter）
+        // 角色碎裂
         PlayerShatter shatter = GetComponent<PlayerShatter>();
         if (shatter != null)
             shatter.Shatter();
 
-        // ▶ 隐藏原角色显示
-        if (sr != null)
-            sr.enabled = false;
+        // 隐藏原角色
+        GetComponent<SpriteRenderer>().enabled = false;
 
-        // ⏱ 延迟显示失败 UI
-        Invoke(nameof(ShowLosePanel), deathAnimTime);
+        if (losePanel != null)
+            losePanel.SetActive(true);
+
+        // ⭐⭐⭐ 关键：清除 UI 选中状态 ⭐⭐⭐
+        EventSystem.current.SetSelectedGameObject(null);
 
         Debug.Log("You Lose!");
     }
+
+
 
     private void ShowLosePanel()
     {

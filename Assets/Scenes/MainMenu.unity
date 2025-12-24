@@ -671,6 +671,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 863ea35bd30bf6446be0a8fcbaf4f1cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  musicGroups:
+  - music: {fileID: 8300000, guid: c92612b55d113a747a1b6a12ff158e27, type: 3}
+    sceneNames:
+    - MainMenu
+  - music: {fileID: 8300000, guid: 787208ba9d2db104f8db93cf8e7efc36, type: 3}
+    sceneNames:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+  - music: {fileID: 8300000, guid: f86c9c99469f0074195ffdf004a60a65, type: 3}
+    sceneNames:
+    - 8
+    - 9
+    - 10
 --- !u!82 &73252144
 AudioSource:
   m_ObjectHideFlags: 0
@@ -682,7 +700,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 1
@@ -7568,6 +7586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 511da7fc2da1ef24985120a7739e2fb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startFullscreen: 1
 --- !u!4 &1384052417
 Transform:
   m_ObjectHideFlags: 0

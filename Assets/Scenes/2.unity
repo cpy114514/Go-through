@@ -231,6 +231,75 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d87f3a15104c7054cb0d2f9ef853d459, type: 3}
+--- !u!1001 &109705931
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 519420032}
+    m_Modifications:
+    - target: {fileID: 1644431946004179151, guid: 225a9611e29da3e47a3995800d9e7fd3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644431946004179151, guid: 225a9611e29da3e47a3995800d9e7fd3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644431946004179151, guid: 225a9611e29da3e47a3995800d9e7fd3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644431946004179151, guid: 225a9611e29da3e47a3995800d9e7fd3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644431946004179151, guid: 225a9611e29da3e47a3995800d9e7fd3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644431946004179151, guid: 225a9611e29da3e47a3995800d9e7fd3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644431946004179151, guid: 225a9611e29da3e47a3995800d9e7fd3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644431946004179151, guid: 225a9611e29da3e47a3995800d9e7fd3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644431946004179151, guid: 225a9611e29da3e47a3995800d9e7fd3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644431946004179151, guid: 225a9611e29da3e47a3995800d9e7fd3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644431946004179151, guid: 225a9611e29da3e47a3995800d9e7fd3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644431946004179151, guid: 225a9611e29da3e47a3995800d9e7fd3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725316873116943405, guid: 225a9611e29da3e47a3995800d9e7fd3, type: 3}
+      propertyPath: cameraTransform
+      value: 
+      objectReference: {fileID: 519420032}
+    - target: {fileID: 8103150536519302023, guid: 225a9611e29da3e47a3995800d9e7fd3, type: 3}
+      propertyPath: m_Name
+      value: longBackGround
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 225a9611e29da3e47a3995800d9e7fd3, type: 3}
 --- !u!1001 &494179752
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -458,7 +527,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 870588671}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &519420033
@@ -5328,6 +5398,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ebd5e0394cf4e9a42abeabf4d14a4276, type: 3}
+--- !u!4 &870588671 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1644431946004179151, guid: 225a9611e29da3e47a3995800d9e7fd3, type: 3}
+  m_PrefabInstance: {fileID: 109705931}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &961968118 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3888392031994756626, guid: bf6b50ada9a274c43a63d0e2150c31ae, type: 3}

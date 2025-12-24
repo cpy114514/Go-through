@@ -55,3 +55,8 @@ MonoBehaviour:
     description: This is obviously a better path.
     icon: {fileID: 21300000, guid: ee638136e37186a41bc6d47bf5fa6950, type: 3}
     unlocked: 0
+  - id: WrongWay
+    title: WrongWay
+    description: This is the WRONG WAY, but the close way
+    icon: {fileID: 21300000, guid: 780e3582619f0d849a3928569b3e833b, type: 3}
+    unlocked: 0

@@ -5,3 +5,11 @@
 [Bb]uilds/
 [Ll]ogs/
 UserSettings/
+# Visual Studio
+.vs/
+
+# Plastic SCM
+.plastic/
+
+# Unity auto-generated
+Assembly-CSharp.csproj

@@ -1,36 +1,77 @@
-using UnityEngine;
+Ôªøusing UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections.Generic;
+
+[System.Serializable]
+public class SceneMusicGroup
+{
+    public AudioClip music;
+    public string[] sceneNames;
+}
 
 public class MusicManager : MonoBehaviour
 {
+    public static MusicManager Instance;
+
+    [Header("Music Groups")]
+    public List<SceneMusicGroup> musicGroups = new List<SceneMusicGroup>();
+
     private AudioSource audioSource;
+    private AudioClip currentClip;
 
     void Awake()
     {
-        // ±£÷§≥°æ∞«–ªª ±≤ªœ˙ªŸ
+        if (Instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        Instance = this;
         DontDestroyOnLoad(gameObject);
 
         audioSource = GetComponent<AudioSource>();
+        audioSource.loop = true;
+        audioSource.playOnAwake = false;
+    }
 
-        // √ø¥Œ≥°æ∞«–ªª ±µ˜”√
+    void OnEnable()
+    {
         SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        PlayMusicForScene(scene.name);
+        AudioClip clip = GetMusicForScene(scene.name);
+        PlayMusic(clip);
     }
 
-    void PlayMusicForScene(string sceneName)
+    AudioClip GetMusicForScene(string sceneName)
     {
-        // ≥¢ ‘º”‘ÿŒª”⁄ Resources/Audio ƒø¬ºœ¬µƒÕ¨√˚“Ù¿÷
-        AudioClip clipToPlay = Resources.Load<AudioClip>("Audio/" + sceneName + "Music");
-
-        if (clipToPlay != null && audioSource.clip != clipToPlay)
+        foreach (var group in musicGroups)
         {
-            audioSource.clip = clipToPlay;
-            audioSource.loop = true;
-            audioSource.Play();
+            foreach (var s in group.sceneNames)
+            {
+                if (s == sceneName)
+                    return group.music;
+            }
         }
+
+        return null;
+    }
+
+    void PlayMusic(AudioClip clip)
+    {
+        if (clip == null) return;
+        if (clip == currentClip) return; // ‚≠ê Âêå‰∏ÄÈ¶ñÊ≠å‰∏çÈáçÊí≠
+
+        currentClip = clip;
+        audioSource.clip = clip;
+        audioSource.Play();
     }
 }
